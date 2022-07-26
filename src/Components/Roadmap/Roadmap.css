@@ -1,0 +1,364 @@
+.mainContainerRoadmap{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    background-color:black;
+}
+.roadMapHeading{
+    color: orange;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.roadMapHeaderDesc{
+    font-size: 35px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+p{
+    margin:0px;
+}
+.cardDescHeader{
+    font-size: 25px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.cardDescSp{
+    font-size: 20px;
+    color: orange;
+    font-weight: 600;
+
+}
+.cardDescMain{
+
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 400;
+    max-width: 680px;
+    margin-top: 30px;
+    
+
+}
+.topCardTextDesc{
+    width: 770px;
+    height: 250px;
+    background-color: #000800;
+    display: flex;
+    justify-content: center;
+    padding-left: 90px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    /* margin-top: 9px; */
+}
+.topHeaderText{
+    width: 860px;
+    margin: auto;
+    padding-top: 25px;
+
+}
+
+
+.squareDiamond{
+    /* position: relative;
+    left:20px; */
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+
+}
+.brogressBar{
+    height: 230px;
+    width: 5px;
+    background-color: #fff;
+    margin-top: 9px;
+    border-radius: 2px;
+    margin-bottom: 9px;
+}
+
+.progressBarMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+  
+    /* left: 0px;
+    right: 0px; */
+}
+.containerBody{
+    display: flex;
+    justify-content: center;
+}
+
+.topProgressBarMain{
+  position: absolute;
+    left: 30px;
+    top: 60px;
+}
+.topTopProgressBarMain{
+    position: relative;
+}
+
+.topBarGlow{
+    width:5px; 
+    height:81.2%;
+    /* background-Color:"#FFF" !important; */
+    /* background-color: #FFF; */
+    /* position:relative !important
+       left: 30px;
+   top: 60px; */
+   left: 42.5px;
+   top: 60px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+
+
+}
+
+.glowBar{
+    width:100%;
+   background:orange;
+   /* box-shadow: 0px 3px 3px 3px rgb(101, 68, 7); */
+   /* position:absolute; */
+   /* filter: grayscale(10%); */
+   /* box-shadow: 0px 1px 0px 1px orange;
+filter: brightness(250%); */
+   
+   
+}
+
+.squareDiamondGlow{
+    /* position: relative;
+    left:20px; */
+    width: 20px;
+    /* height: 20px; */
+    max-height: 20px;
+    background: orange;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    z-index: 999;
+   
+
+}
+.squareDiamondGlow1{
+    width: 20px;
+    /* height: 20px; */
+    max-height: 20px;
+    background: orange;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    position: absolute;
+    top: 268px;
+    z-index: 999;
+
+
+}
+
+.brogressBarGlow{
+    /* height: 230px; */
+    /* max-height: 230px; */
+    width: 5px;
+    background-color: orange;
+    margin-top: 9px;
+    border-radius: 2px;
+    /* box-shadow: 2px 2px 2px 2px #0ff; */
+}
+.squareDiamondGlow2{
+    width: 20px;
+    /* height: 20px; */
+    max-height: 20px;
+    background: orange;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    position: absolute;
+    top: 536px;
+    z-index: 999;
+
+}
+
+.squareDiamondGlow3{
+    width: 20px;
+    /* height: 20px; */
+    max-height: 20px;
+    background: orange;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    position: absolute;
+    top: 804px;
+    z-index: 999;
+
+}
+
+.squareDiamondGlow4{
+    width: 20px;
+    /* height: 20px; */
+    max-height: 20px;
+    background: orange;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    position: absolute;
+    top: 1081px;
+    z-index: 999;
+    /* box-shadow: 1px 1px 1px 1px orange; */
+
+}
+
+
+.squareDiamondBack1{
+    width: 25px;
+    /* height: 20px; */
+    max-height: 25px;
+    /* background: #000800;
+     */
+     background-color: #000800;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    position: absolute;
+    /* top: 268px; */
+    z-index: 99;
+    border-radius: 5px;
+}
+
+.squareDiamondBack2
+    {
+    width: 30px;
+    /* height: 20px; */
+    max-height: 30px;
+    background: #000800;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    position: absolute;
+    z-index: 99;
+    top: 263px;
+    border-radius: 5px;
+
+
+}
+
+.squareDiamondBack3{
+    width: 30px;
+    /* height: 20px; */
+    max-height: 30px;
+    background: #000800;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    position: absolute;
+    top: 530px;
+    z-index: 99;
+    border-radius: 5px;
+
+}
+
+.squareDiamondBack4{
+    width: 30px;
+    /* height: 20px; */
+    max-height: 30px;
+    background: #000800;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    position: absolute;
+    top: 799px;
+    z-index: 99;
+    border-radius: 5px;
+
+}
+
+.squareDiamondBack5{
+    width: 30px;
+    /* height: 20px; */
+    max-height: 30px;
+    background: #000800;
+    transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    position: absolute;
+    top: 1075px;
+    z-index: 99;
+    border-radius: 5px;
+
+
+
+}
+
+
+@media (max-width:880px) {
+    .topCardTextDesc{
+        /* width: 50%; */
+        width: 350px;
+        padding-right: 10px;
+    }
+    .topHeaderText{
+
+        /* width: 50%; */
+        width: 350px;
+    }
+    .roadMapHeaderDesc{
+        font-size: 20px;
+    }
+    .roadMapHeading {
+        font-size: 25px;
+    }
+    .cardDescHeader{
+        font-size: 18px;
+    }
+    .cardDescMain{
+        font-size:15px;
+    }
+    .topCardComponents{
+        margin-top: 19px;
+    }
+    .topBarGlow{
+        height: 80.2%;
+    }
+}
+
+
+@media (max-width:472px) {
+
+    .topCardComponents{
+        margin-top: 43px;
+    }
+    .cardDescHeader{
+        font-size: 12px;
+    }
+    .cardDescMain{
+        font-size: 15px;
+    }
+    .topCardTextDesc{
+        width: 260px;
+    }
+    .topBarGlow{
+        height: 79%;
+    }
+
+    .mainContainerRoadmap{
+        padding-bottom: 200px;
+    }
+}
+
+
+@media (max-width:370px) {
+
+    .topCardTextDesc {
+        padding-left: 50px;
+    }
+    .topProgressBarMain {
+ 
+        left: 8px;
+        top: 57px;
+    }
+    .topBarGlow {
+       
+        left: 20.5px;
+        top: 56px;
+       
+    }
+}

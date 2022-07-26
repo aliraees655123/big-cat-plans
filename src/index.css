@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.scroll-container .indicator{
+  /* width: 100%; */
+  background-color: orange;
+  margin-left: 500px;
+
+      box-shadow: 3px 3px 3px 3px rgb(230, 181, 92);
+
+
+}
+.topDiv{
+  height: 800px;
+}
+.scroll-container {
+  position: fixed;
+  top: 0;
+  left: 700;
+  width: 5px;
+  /* background-color: red; */
+  height: 100%;
+ 
+
+
+}
+.height{
+  height: 6000px;
+  background-color: black;
+}
+
+.top{
+  height: 1300px;
+  background-color: green;
+  width: 100%;
+}
+.scrollDiv{
+  height: 600px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  margin: auto;
+  left: 700px;
+  right: 0px;
+}
